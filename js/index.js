@@ -82,7 +82,7 @@ shuffleButton.addEventListener('click', () => {
 
 /*** ФИЛЬТРАЦИЯ ***/
 
-// фильтрация массива             (НЕ ФИЛЬТРУЕТ!!!!!)
+// фильтрация массива             
 const filterFruits = () => {
   return fruits.filter((i) => {
   return ((i.weight >= minWeight) && (i.weight <= maxWeight)); // если заменить maxWeight, minWeight на числа, то фильтрует!!!
